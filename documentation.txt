@@ -1,0 +1,8 @@
+reference: https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template-bordered/app-ecommerce-dashboard.html
+
+
+primary-bg-color: rgb(255,255,255);
+primary-btn-bg-color: rgb(105,108,255);
+
+primary-text-color: #697a8d;
+secondary-text-color: #566a7f, #696cff, #a1acb8;

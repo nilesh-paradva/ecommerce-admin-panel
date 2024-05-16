@@ -1,0 +1,1707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce- Dashboards | Sneat - Bootstrap 5 HTML Admin Template - pro</title>
+    <!-- favicon-icon -->
+    <link rel="icon" href="images/favicon/favicon1.ico">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- fonts-ofline -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- custom-css -->
+    <link rel="stylesheet" href="css/style.css" id="system-chenge">
+    <!-- max-media -->
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!-- loader -->
+    <div class="loader">
+        <div class="preloader">
+            <svg class="cart" role="img" aria-label="Shopping cart line animation" viewBox="0 0 128 128" width="128px" height="128px" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="8">
+                    <g class="cart__track" stroke="hsla(0,10%,10%,0.1)">
+                        <polyline points="4,4 21,4 26,22 124,22 112,64 35,64 39,80 106,80" />
+                        <circle cx="43" cy="111" r="13" />
+                        <circle cx="102" cy="111" r="13" />
+                    </g>
+                    <g class="cart__lines" stroke="currentColor">
+                        <polyline class="cart__top" points="4,4 21,4 26,22 124,22 112,64 35,64 39,80 106,80" stroke-dasharray="338 338" stroke-dashoffset="-338" />
+                        <g class="cart__wheel1" transform="rotate(-90,43,111)">
+                            <circle class="cart__wheel-stroke" cx="43" cy="111" r="13" stroke-dasharray="81.68 81.68" stroke-dashoffset="81.68" />
+                        </g>
+                        <g class="cart__wheel2" transform="rotate(90,102,111)">
+                            <circle class="cart__wheel-stroke" cx="102" cy="111" r="13" stroke-dasharray="81.68 81.68" stroke-dashoffset="81.68" />
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+    <!-- light-dark-layer -->
+    <div class="click-layer w-xxl-none w-xl-none di-none"></div>
+    <!--sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-logo  text-center dis-flex ali-center">
+            <a href="#" class="dis-flex ali-center text-center"><i class="fa-solid fa-bag-shopping"
+                    style="color: #075ced;"></i><span>Ecommerce</span></a>
+        </div>
+        <div class="pre-btn w-lg-none" id="pre-btn">
+            <a href="javascript:void(0)"><i class="fa-solid fa-chevron-right" id="ro-icon"></i></a>
+        </div>
+        <div class="pre-btn-2 w-xxl-none w-xl-none di-none" id="pre-btn2">
+            <a href="javascript:void(0)"><i class="fa-solid fa-chevron-right" id="ro-icon"></i></a>
+        </div>
+        <!-- nav-list -->
+        <nav>
+            <div class="menu-list">
+                <ul class="deshboards">
+                    <li>
+                        <a href="javascript:void(0)" class="dis-flex  ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-house-user"></i></div><span>Deshboards</span>
+                            <span class="notifi"
+                                style="--width: 20px; --bg-color: red; --color: white; --mar-l: 2.2em;">5</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Analytics</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>CRM</a></li>
+                                <li><a href="index.html" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>eCommerce</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Logistics</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Academy</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="dis-flex  ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-layer-group"></i></div><span>Layouts</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i> Collapsed&nbsp;menu</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i> Contact&nbsp;navbar</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>
+                                        Contact&nbsp;nav&nbsp;+&nbsp;Sidebar</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i> Horizontal</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i> Without&nbsp;menu</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i> Without&nbsp;navbar</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i> Fluid</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i> Container</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i> Blank</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-store"></i></div><span>Front&nbsp;Pages</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Landing</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Pricing</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Payment</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Checkout</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Help&nbsp;Center</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="calendar.html" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-calendar-days"></i></div><span>Calender</span>
+                        </a></li>
+                </ul>
+
+                <div class="desh-he">
+                    <h4>APP&nbsp;&&nbsp;Pages</h4>
+                </div>
+
+                <ul class="deshboards">
+                    <li><a href="#" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-envelope left"></i></div><span>Email</span>
+                        </a></li>
+                    <li><a href="#" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-regular fa-message"></i></div><span>Chat</span>
+                        </a></li>
+                    <li><a href="#" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-calendar-days"></i></div><span>Calender</span>
+                        </a></li>
+                    <li><a href="#" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-table-cells"></i></div><span>Kanban</span>
+                        </a></li>
+                    <li><a href="#" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-cart-shopping"></i></div><span>eCommerce</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Deshboards</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link right sub-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Product</a>
+                                    <div class="sub-drop di-none">
+                                        <ul>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Product List</a></li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Add Product</a></li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Category List</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Order</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link right sub-link"><i
+                                            class="fa-regular fa-circle drop-icon "></i>Customer</a>
+                                    <div class="sub-drop di-none">
+                                        <ul>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>ALL Customer</a></li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Customer details</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Manage&nbsp;Reviews</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Referrals</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link sub-link right"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Settings</a>
+                                    <div class="sub-drop di-none">
+                                        <ul>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Store&nbsp;Details</a>
+                                            </li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Payments</a></li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Checkout</a></li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Shopping&nbsp;&&nbsp;Delivery</a>
+                                            </li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Locations</a></li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Notification</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-book-open left"></i></div><span>Academy</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Deshboards</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>My&nbsp;Course</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Course&nbsp;Details</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-car left"></i></div><span>Logistics</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Deshboards</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Fleet</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-rectangle-list left"></i></div>
+                            <span>Invoice</span>
+                            <span class="notifi"
+                                style="--width: 20px; --bg-color: rgb(109, 109, 20); --color: white; --mar-l: 4.4em">4</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>List</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Preview</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Edit</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Add</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-user left"></i></div><span>Users</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>List</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link sub-link right"><i
+                                            class="fa-regular fa-circle drop-icon"></i>View</a>
+                                    <div class="sub-drop di-none">
+                                        <ul>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Account</a></li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Security</a></li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Billings&nbsp;&&nbsp;Plans</a>
+                                            </li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Notifications</a>
+                                            </li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Connection</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-shield-halved left"></i></div>
+                            <span>Roles&nbsp;&&nbsp;Permissions</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Rouls</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Permission</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-pager left"></i></div><span>Pages</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>User&nbsp;Profile</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Account&nbsp;Settings</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Faq</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Pricing</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Misc</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-unlock-keyhole left"></i></div>
+                            <span>Authenticatition</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Login</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link sub-link right"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Register</a>
+                                    <div class="sub-drop di-none">
+                                        <ul>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Basic</a></li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Cover</a></li>
+                                            <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                                        class="fa-regular fa-circle drop-icon"></i>Multi&nbsp;-&nbsp;Steps</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Veryfy&nbsp;Email</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Reset&nbsp;Password</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Forgot&nbsp;Password</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Two&nbsp;Steps</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-table left"></i></div>
+                            <span>Wizard&nbsp;Examples</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Checkout</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Property&nbsp;Listing</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Create&nbsp;Deal</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-window-maximize left"></i></div>
+                            <span>Model&nbsp;Examples</span>
+                        </a></li>
+                </ul>
+
+                <div class="desh-he">
+                    <h4>COMPONENTS</h4>
+                </div>
+
+                <ul class="deshboards">
+                    <li><a href="javascript:void(0)" class="dis-flex  ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-align-center"></i></div><span>Cards</span>
+                            <span class="notifi"
+                                style="--width: 20px; --bg-color: red; --color: white; --mar-l: 5em">6</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Basic</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Advance</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Statistics</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="dis-flex  ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-box"></i></div><span>User&nbsp;interface</span>
+                        </a></li>
+                    <li><a href="#" class="dis-flex  ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-copy"></i></div>
+                            <span>Extended&nbsp;UI</span></i>
+                        </a></li>
+                    <li><a href="javascript:void(0)" class="dis-flex  ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-crown"></i></div><span>Icons</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Boxicons</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Fontawesome</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="desh-he">
+                    <h4>FORMS&nbsp;&&nbsp;TABLES</h4>
+                </div>
+
+                <ul class="deshboards">
+                    <li><a href="javascript:void(0)" class="dis-flex  ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-bars-staggered"></i></div>
+                            <span>Form&nbsp;Elements</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Basic&nbsp;inputs</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Input&nbsp;group</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Custome&nbsp;Option</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Editors</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>File&nbsp;Upload</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-bars-staggered"></i></div>
+                            <span>Form&nbsp;Layouts</span>
+                        </a></li>
+                    <li><a href="#" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-hat-wizard"></i></div>
+                            <span>Form&nbsp;Wizard</span>
+                        </a></li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-list-check"></i></div>
+                            <span>Form&nbsp;Validation</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Numbered</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Icons</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-table"></i></div><span>Tables</span>
+                        </a></li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-table-cells"></i></div><span>Datatables</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Basic</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Advance</a></li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i>Extensions</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="desh-he">
+                    <h4>CHARTS&nbsp;&&nbsp;MAPS</h4>
+                </div>
+
+                <ul class="deshboards">
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center menu-link right">
+                            <div class="icon-left"><i class="fa-solid fa-chart-line"></i></div><span>Charts</span>
+                        </a>
+                        <div class="dropdown-menu di-none">
+                            <ul>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i><span>Apex&nbsp;Charts</span></a>
+                                </li>
+                                <li><a href="#" class="dis-flex ali-center drop-link"><i
+                                            class="fa-regular fa-circle drop-icon"></i><span>ChartJS</span></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="javascript:void(0)" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-regular fa-map"></i></div><span>Leaflet&nbsp;Maps</span>
+                        </a></li>
+                </ul>
+
+                <div class="desh-he">
+                    <h4>MISC</h4>
+                </div>
+
+                <ul class="deshboards">
+                    <li><a href="#" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-headset"></i></div><span>Support</span>
+                        </a></li>
+                    <li><a href="#" class="dis-flex ali-center">
+                            <div class="icon-left"><i class="fa-solid fa-file-lines"></i></div>
+                            <span>Documentation</span>
+                        </a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- header -->
+    <header class="dis-flex ali-center right-all">
+        <div class="container">
+            <div class="row nav-border">
+                <div class="w-8 dis-flex ali-center w-lg-6 w-xs-3">
+                    <div class="toggle-btn w-xxl-none w-xl-none w-lg-block main-part-colo" id="toggle-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="iput w-xs-none" id="input">
+                        <input type="text" placeholder="search (Ctrl+l)">
+                    </div>
+                </div>
+                <div class="w-4 w-lg-6 w-xs-9">
+                    <div class="nav-list">
+                        <ul class="dis-flex ali-center jus-end" id="nav-ul">
+                            <li><a href="javascript:void(0)" id="drop-1" class="main-drop"><i
+                                        class="fa-solid fa-globe"></i></a>
+                                <div id="drop-menu-1" class="di-none dropdow">
+                                    <ul>
+                                        <li><a href="javascript:void(0)" class="system-swatch" id="style">English</a></li>
+                                        <li><a href="javascript:void(0)" class="system-swatch" id="french">French</a></li>
+                                        <li><a href="javascript:void(0)" class="system-swatch" id="arabic">Arabic</a></li>
+                                        <li><a href="javascript:void(0)" class="system-swatch" id="german">German</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="javascript:void(0)" id="drop-2" class="main-drop"><i
+                                        class="fa-solid fa-border-all"></i></a>
+                                <div id="drop-menu-2" class="di-none dropdow">
+                                    <div>
+                                        <div class="short-pera d-flex space-bet ali-center">
+                                            <h2>Shortcuts</h2><span><i class="fa-solid fa-plus"></i></span>
+                                        </div>
+                                        <div class="short-box d-flex ali-center">
+                                            <div class="box">
+                                                <div class="calender d-flex flex-colu text-center">
+                                                    <a href="#">
+                                                        <div class="cale-icon"><i class="fa-solid fa-calendar-days"></i>
+                                                        </div>
+                                                        <div class="cale-pera">
+                                                            <h4>Calender</h4>
+                                                            <p>Appointments</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="box" id="box-bor">
+                                                <div class="calender d-flex flex-colu text-center">
+                                                    <a href="#">
+                                                        <div class="cale-icon"><i
+                                                                class="fa-regular fa-rectangle-list"></i></div>
+                                                        <div class="cale-pera">
+                                                            <h4>Invoice App</h4>
+                                                            <p>Manage Account</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="box">
+                                                <div class="calender d-flex flex-colu text-center">
+                                                    <a href="#">
+                                                        <div class="cale-icon"><i class="fa-solid fa-user"></i>
+                                                        </div>
+                                                        <div class="cale-pera">
+                                                            <h4>User App</h4>
+                                                            <p>Manage Users</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="box" id="box-bor">
+                                                <div class="calender d-flex flex-colu text-center">
+                                                    <a href="#">
+                                                        <div class="cale-icon"><i class="fa-solid fa-shield-halved"></i>
+                                                        </div>
+                                                        <div class="cale-pera">
+                                                            <h4>Role Management</h4>
+                                                            <p>Permission</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="box">
+                                                <div class="calender d-flex flex-colu text-center">
+                                                    <a href="#">
+                                                        <div class="cale-icon"><i class="fa-solid fa-chart-pie"></i>
+                                                        </div>
+                                                        <div class="cale-pera">
+                                                            <h4>Deshboards</h4>
+                                                            <p>User Profile</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="box" id="box-bor">
+                                                <div class="calender d-flex flex-colu text-center">
+                                                    <a href="#">
+                                                        <div class="cale-icon"><i class="fa-solid fa-gear"></i>
+                                                        </div>
+                                                        <div class="cale-pera">
+                                                            <h4>Setting</h4>
+                                                            <p>Account Settings</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="box box-bo">
+                                                <div class="calender d-flex flex-colu text-center">
+                                                    <a href="#">
+                                                        <div class="cale-icon"><i
+                                                                class="fa-solid fa-circle-question"></i></div>
+                                                        <div class="cale-pera">
+                                                            <h4>FAQs</h4>
+                                                            <p>FAQs & Article</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="box box-bo" id="box-bor">
+                                                <div class="calender d-flex flex-colu text-center">
+                                                    <a href="#">
+                                                        <div class="cale-icon"><i
+                                                                class="fa-solid fa-window-maximize"></i></div>
+                                                        <div class="cale-pera">
+                                                            <h4>Modals</h4>
+                                                            <p>Useful Popups</p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="javascript:void(0)" id="drop-3" class="main-drop"><i
+                                        class="fa-solid fa-sun"></i></a>
+                                <div id="drop-menu-3" class="di-none dropdow">
+                                    <ul>
+                                        <li><a href="javascript:void(0)" class="system-swatch" id="style">
+                                                <div class="drop-3-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                                                Light
+                                            </a></li>
+                                        <li><a href="javascript:void(0)" class="system-swatch" id="dark">
+                                                <div class="drop-3-icon"><i class="fa-solid fa-moon"></i></div>Dark
+                                            </a></li>
+                                        <li><a href="javascript:void(0)" class="system-swatch" id="style">
+                                                <div class="drop-3-icon"><i class="fa-solid fa-desktop"></i></div>
+                                                System
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="javascript:void(0)" id="drop-4" class="main-drop"><i
+                                        class="fa-solid fa-bell"></i></a>
+                                <div id="drop-menu-4" class="di-none dropdow">
+                                    <ul>
+                                        <div class="short-pera dis-flex space-bet ali-center">
+                                            <h2>Notification</h2><span><i class="fa-solid fa-envelope"></i></span>
+                                        </div>
+                                        <li><a href="#" class="dis-flex space-bet">
+                                                <div class="profile" style="--prof-size:50px;">
+                                                    <img src="images/profile/profile.png" alt="">
+                                                </div>
+                                                <div class="pro-pere">
+                                                    <h4>Congratulation Lettie 🎉</h4>
+                                                    <p>Won the monthly best seller gold badge</p>
+                                                    <small>1h ago</small>
+                                                </div>
+                                                <div class="close">
+                                                    <i class="fa-solid fa-circle" style="color: #003ea8;"></i>
+                                                    <div class="clos di-none">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#" class="dis-flex space-bet">
+                                                <div class="dis-flex">
+                                                    <div class="profile"
+                                                        style="--prof-size:50px; background-color: rgb(87, 112, 87); color: white;">
+                                                        <p>CF</p>
+                                                    </div>
+                                                    <div class="pro-pere">
+                                                        <h4>Charles Franklin</h4>
+                                                        <p>Accepted your connection</p>
+                                                        <small>12hr ago</small>
+                                                    </div>
+                                                </div>
+                                                <div class="close">
+                                                    <i class="fa-solid fa-circle" style="color: #003ea8;"></i>
+                                                    <div class="clos di-none">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#" class="dis-flex space-bet">
+                                                <div class="dis-flex">
+                                                    <div class="profile" style="--prof-size:50px;">
+                                                        <img src="images/header-nav-img/img1.png" alt="">
+                                                    </div>
+                                                    <div class="pro-pere">
+                                                        <h4>New Message ✉️</h4>
+                                                        <p>You have new message from Natalie</p>
+                                                        <small>1h ago</small>
+                                                    </div>
+                                                </div>
+                                                <div class="close">
+                                                    <i class="fa-solid fa-circle" style="color: #888a8e;"></i>
+                                                    <div class="clos di-none">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#" class="dis-flex space-bet">
+                                                <div class="dis-flex">
+                                                    <div class="profile"
+                                                        style="--prof-size:50px; background-color: rgb(190, 248, 194); color: rgb(55, 59, 52);">
+                                                        <i class="fa-solid fa-cart-shopping"></i>
+                                                    </div>
+                                                    <div class="pro-pere">
+                                                        <h4>Whoo! You have new order 🛒</h4>
+                                                        <p>ACME Inc. made new order $1,154</p>
+                                                        <small>1 day ago</small>
+                                                    </div>
+                                                </div>
+                                                <div class="close">
+                                                    <i class="fa-solid fa-circle" style="color: #003ea8;"></i>
+                                                    <div class="clos di-none">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#" class="dis-flex space-bet">
+                                                <div class="dis-flex">
+                                                    <div class="profile" style="--prof-size:50px;">
+                                                        <img src="images/header-nav-img/2.png" alt="">
+                                                    </div>
+                                                    <div class="pro-pere">
+                                                        <h4>CApplication has been approved 🚀 </h4>
+                                                        <p>ABC project application been approved.</p>
+                                                        <small>2 days ago</small>
+                                                    </div>
+                                                </div>
+                                                <div class="close">
+                                                    <i class="fa-solid fa-circle" style="color: #888a8e;"></i>
+                                                    <div class="clos di-none">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#" class="dis-flex space-bet">
+                                                <div class="dis-flex">
+                                                    <div class="profile"
+                                                        style="--prof-size:50px; background-color: rgba(190, 248, 194); color: rgb(84, 91, 77);">
+                                                        <i class="fa-solid fa-chart-pie"></i>
+                                                    </div>
+                                                    <div class="pro-pere">
+                                                        <h4>Monthly report is generated</h4>
+                                                        <p>July monthly financial report generated</p>
+                                                        <small>3 days ago</small>
+                                                    </div>
+                                                </div>
+                                                <div class="close">
+                                                    <i class="fa-solid fa-circle" style="color: #888a8e;"></i>
+                                                    <div class="clos di-none">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#" class="dis-flex space-bet">
+                                                <div class="dis-flex">
+                                                    <div class="profile" style="--prof-size:50px;">
+                                                        <img src="images/header-nav-img/3.png" alt="">
+                                                    </div>
+                                                    <div class="pro-pere">
+                                                        <h4>Send connection request</h4>
+                                                        <p>Peter sent you connection request</p>
+                                                        <small>4 days ago</small>
+                                                    </div>
+                                                </div>
+                                                <div class="close">
+                                                    <i class="fa-solid fa-circle" style="color: #003ea8;"></i>
+                                                    <div class="clos di-none">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#" class="dis-flex space-bet">
+                                                <div class="dis-flex">
+                                                    <div class="profile" style="--prof-size:50px;">
+                                                        <img src="images/header-nav-img/4.png" alt="">
+                                                    </div>
+                                                    <div class="pro-pere">
+                                                        <h4>New message from Jane</h4>
+                                                        <p>Your have new message from Jane</p>
+                                                        <small>5 days ago</small>
+                                                    </div>
+                                                </div>
+                                                <div class="close">
+                                                    <i class="fa-solid fa-circle" style="color: #003ea8;"></i>
+                                                    <div class="clos di-none">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                        <li><a href="#" class="dis-flex space-bet">
+                                                <div class="dis-flex">
+                                                    <div class="profile"
+                                                        style="--prof-size:50px; background-color: rgba(190, 248, 194); color: rgb(68, 74, 62);">
+                                                        <i class="fa-solid fa-triangle-exclamation"></i>
+                                                    </div>
+                                                    <div class="pro-pere">
+                                                        <h4>CPU is running high</h4>
+                                                        <p>CPU Utilization currently at 88.63%,</p>
+                                                        <small>5 days ago</small>
+                                                    </div>
+                                                </div>
+                                                <div class="close">
+                                                    <i class="fa-solid fa-circle" style="color:#888a8e;"></i>
+                                                    <div class="clos di-none">
+                                                        <i class="fa-solid fa-xmark"></i>
+                                                    </div>
+                                                </div>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                                <span class="ball-noti"
+                                    style="--bg-color: red; --width: 20px; --top: -9px; --left: 17px;">5</span>
+                            </li>
+                            <li>
+                                <div class="profile main-drop" style="--prof-size:50px; --medi-pro-size: 30px"
+                                    id="drop-5">
+                                    <img src="images/profile/profile.png" alt="profile">
+                                    <span class="ball-noti"
+                                        style="--bg-color: rgb(190, 237, 124); --width: 14px; --top: 2em; --left: 2.1em; --border: 2px solid white;"></span>
+                                </div>
+                                <div id="drop-menu-5" class="di-none dropdow">
+                                    <ul>
+                                        <li><a href="#" class="d-flex ali-center col-padding">
+                                                <div class="profile" style="--prof-size:50px;">
+                                                    <img src="images/profile/profile.png" alt="profile">
+                                                    <span class="ball-noti"
+                                                        style="--bg-color: rgb(190, 237, 124); --width: 13px; --top: 3em; --left: 3em; --border: 2px solid white;"></span>
+                                                </div>
+                                                <div class="pro-pere">
+                                                    <h4>John Deo</h4>
+                                                    <p>Admin</p>
+                                                </div>
+                                            </a></li>
+                                        <ul class="pro-list">
+                                            <li><a href="#" class="d-flex ali-center">
+                                                    <div class="pro-icon"><i class="fa-solid fa-user"></i></div>My
+                                                    Profile
+                                                </a></li>
+                                            <li><a href="#" class="d-flex ali-center">
+                                                    <div class="pro-icon"><i class="fa-solid fa-gear"></i></div>
+                                                    Setting
+                                                </a></li>
+                                            <li><a href="#" class="d-flex ali-center">
+                                                    <div class="pro-icon"><i class="fa-solid fa-money-bill"></i>
+                                                    </div>Billing
+                                                    <span class="notifi"
+                                                        style="--width: 20px; --bg-color: red; --color: white; --mar-l: 6em;">5</span>
+                                                </a></li>
+                                        </ul>
+                                        <ul class="pro-list">
+                                            <li><a href="#" class="d-flex ali-center">
+                                                    <div class="pro-icon"><i class="fa-solid fa-circle-question"></i>
+                                                    </div>FAQ
+                                                </a></li>
+                                            <li><a href="#" class="d-flex ali-center">
+                                                    <div class="pro-icon"><i
+                                                            class="fa-solid fa-hand-holding-dollar"></i></div>
+                                                    Pricing
+                                                </a></li>
+                                        </ul>
+                                        <ul class="pro-list" id="last-prof">
+                                            <li><a href="#" class="d-flex ali-center">
+                                                    <div class="pro-icon"><i class="fa-solid fa-right-from-bracket"></i>
+                                                    </div>Log Out
+                                                </a></li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </li>
+                            <div class="click-msg w-s-none w-xs-none">
+                                <div class="tringle">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                                <div class="msg-box">Click:- Open/Close menu</div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="search-close di-none main-part-colo">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main-content -->
+    <div class="main-contant right-all">
+        <!-- main -->
+        <main>
+            <div class="container">
+                <div class="row row-gap">
+                    <div class="w-4 col-padding w-lg-12">
+                        <div class="part-1 d-flex ali-center" style="height: 100%;">
+                            <div class="w-8 col-padding">
+                                <div class="main-box">
+                                    <div class="box-1-pere-1 mb-20">
+                                        <h3 class="main-part-colo">Congratulations Katie!</h3>
+                                        <p class="main-part-colo2">Best seller of the month</p>
+                                    </div>
+                                    <div class="box-1-pere-2 mb-20">
+                                        <h2 class="main-part-colo3">$48.9k</h2>
+                                        <p class="main-part-colo4">78% of target</p>
+                                    </div>
+                                    <div class="box-1-btn">
+                                        <a href="#">View sales</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-4 col-padding w-lg-1 w-s-2">
+                                <div class="box-1-img mt-4">
+                                    <img src="images/part1/img1.png" alt="box-1-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-8 col-padding w-lg-12">
+                        <div class="part-1 d-flex flex-di-column" style="height: 100%;">
+                            <div class="w-6 col-padding w-lg-6 w-s-12">
+                                <div class="main-box d-flex medi-bor-bot">
+                                    <div class="w-6">
+                                        <div class="div ali-content">
+                                            <div class="box-2-pere">
+                                                <h3 class="main-part-colo">New Visitors</h3>
+                                            </div>
+                                            <div class="box-2-pere-2">
+                                                <h1 class="main-part-colo">23%</h1>
+                                                <span class="main-part-colo2"><i
+                                                        class="fa-solid fa-arrow-down"></i>&nbsp;-13.24%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-6 box-2-bo col-padding">
+                                        <div class="box-2-pere-3 text-right px-10 mb-20">
+                                            <p class="px-10 mb-20 main-part-colo4">Last Week</p>
+                                        </div>
+                                        <div class="div mt-20" style="height: 200px;">
+                                            <canvas id="chart"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-6 w-lg-6 w-s-12">
+                                <div class="main-box me-main-box d-flex">
+                                    <div class="w-6">
+                                        <div class="box-2-pere">
+                                            <h3 class="main-part-colo">New Visitors</h3>
+                                        </div>
+                                        <div class="box-2-pere-2">
+                                            <h1 class="main-part-colo">82%</h1>
+                                            <span style="color: rgb(161, 205, 41);"><i class="fa-solid fa-arrow-up"
+                                                    style="color: rgb(160, 205, 36);"></i>&nbsp;24.8%</span>
+                                        </div>
+                                    </div>
+                                    <div class="w-6  col-padding">
+                                        <div class="box-2-pere-3 text-right">
+                                            <p class="main-part-colo4">Last Week</p>
+                                        </div>
+                                        <div class="graph" id="apex-1" style="height: 100%; width: 100%; ;">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 d-flex w-lg-12 w-s-12">
+                        <div class="w-6 mb-20 col-padding w-lg-3 w-s-6 mb-0">
+                            <div class="part-1 col-padding height-100">
+                                <div class="main-box">
+                                    <div class="box-3-img d-flex ali-center space-bet mb-20">
+                                        <img src="images/part2/img1.png" alt="box-3-img" style="width: 30%;">
+                                        <span class="main-part-colo"><i
+                                                class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                    <div class="box-3-pere-1">
+                                        <p class="main-part-colo4">Sales</p>
+                                        <h2 class="mt-20 mb-20 main-part-colo">$4,679</h2>
+                                        <span style="color: rgb(161, 205, 41);"><i class="fa-solid fa-arrow-up"
+                                                style="color: rgb(160, 205, 36);"></i>&nbsp;24.8%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-6 mb-20 col-padding w-lg-3 w-s-6 mb-0">
+                            <div class="part-1 col-padding height-100">
+                                <div class="main-box">
+                                    <div class="box-3-pere-1">
+                                        <p class="main-part-colo4">Profit</p>
+                                        <h2 class="main-part-colo">624k</h2>
+                                    </div>
+                                    <div class="graph" style="max-height: 130px;">
+                                        <div class="div" style="max-height: 130px;">
+                                            <canvas id="chart-3"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-6 col-padding w-lg-3 w-s-6">
+                            <div class="part-1 col-padding height-100">
+                                <div class="main-box">
+                                    <div class="box-3-pere-1">
+                                        <p class="main-part-colo4">Expenses</p>
+                                    </div>
+                                    <div class="graph mt-20" id="apex-2" style="max-height: 130px;">
+
+                                    </div>
+                                    <div class="box-3-pere-3 mt-20" style="text-align: center;">
+                                        <p class="main-part-colo">$21k Expenses more than last month</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-6 col-padding w-lg-3 w-s-6">
+                            <div class="part-1 col-padding height-100">
+                                <div class="main-box">
+                                    <div class="box-3-img d-flex ali-center space-bet mb-20">
+                                        <img src="images/part2/img2.png" alt="box-3-img" style="width: 30%;">
+                                        <span class="main-part-colo"><i
+                                                class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                    <div class="box-3-pere-1">
+                                        <p class="main-part-colo4">Transactions</p>
+                                        <h2 class="mb-20 mt-20 main-part-colo">$14,857</h2>
+                                        <span style="color: rgb(161, 205, 41);"><i class="fa-solid fa-arrow-up"
+                                                style="color: rgb(160, 205, 36);"></i>&nbsp;+28.14%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-8 col-padding w-lg-12">
+                        <div class="part-1 d-flex height-100 flex-di-column">
+                            <div class="w-8 col-padding box-2-bo w-s-12">
+                                <div class="main-box">
+                                    <div class="box-4-pere-1">
+                                        <h3 class="main-part-colo">Total Income</h3>
+                                        <p class="main-part-colo4">Yearly report overview</p>
+                                    </div>
+                                    <div class="greph">
+                                        <div class="div mt-20" style="width: 100%; height: 100%;">
+                                            <canvas id="chart-5" style="width: 100%; height: 100%;"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-4 col-padding w-s-12">
+                                <div class="main-box">
+                                    <div class="box-3-img d-flex ali-center space-bet mb-20">
+                                        <div class="box-4-pere">
+                                            <h3 class="main-part-colo">Report</h3>
+                                            <p class="main-part-colo4">Monthly Avg. $45.578k</p>
+                                        </div>
+                                        <span class="main-part-colo"><i
+                                                class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                    <div class="box-4-boxis mt-4">
+                                        <div class="box-1 mb-20">
+                                            <div class="img-1 d-flex ali-center space-bet">
+                                                <img src="images/box-4/img-1.svg" alt="box-4-img" style="width: 19%;">
+                                                <div class="box-1-pere">
+                                                    <p class="main-part-colo4">Income</p>
+                                                    <h2 class="main-part-colo">$42,845</h2>
+                                                </div>
+                                                <span style="color: rgb(161, 205, 41);">+28.14%</span>
+                                            </div>
+                                        </div>
+                                        <div class="box-1 mb-20">
+                                            <div class="img-1 d-flex ali-center space-bet">
+                                                <img src="images/box-4/img-2.svg" alt="box-4-img" style="width: 19%;">
+                                                <div class="box-1-pere">
+                                                    <p class="main-part-colo4">Expense</p>
+                                                    <h2 class="main-part-colo">$38,658</h2>
+                                                </div>
+                                                <span style="color: rgb(226, 21, 21);">+28.14%</span>
+                                            </div>
+                                        </div>
+                                        <div class="box-1 mb-20">
+                                            <div class="img-1 d-flex ali-center space-bet">
+                                                <img src="images/box-4/img-3.svg" alt="box-4-img" style="width: 19%;">
+                                                <div class="box-1-pere">
+                                                    <p class="main-part-colo4">Profit</p>
+                                                    <h2 class="main-part-colo">$18,220</h2>
+                                                </div>
+                                                <span style="color: rgb(161, 205, 41);">+28.14%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 col-padding w-lg-6 w-s-12">
+                        <div class="part-1 col-padding" style="height: 100%;">
+                            <div class="main-box">
+                                <div class="box-3-img d-flex ali-center space-bet mb-20">
+                                    <div class="box-4-pere">
+                                        <h3 class="mb-20 main-part-colo">Report</h3>
+                                        <p class="main-part-colo4">Earnings: $846.17&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                            &nbsp; &nbsp; &nbsp;
+                                            &nbsp; Sales: 25.7M</p>
+                                    </div>
+                                    <span class="main-part-colo"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                </div>
+                                <div class="graph">
+                                    <div>
+                                        <canvas id="chart-6"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 col-padding w-lg-6 w-s-12">
+                        <div class="part-1 d-flex height-100">
+                            <div class="w-6 col-padding">
+                                <div class="box-3-img d-flex ali-center space-bet">
+                                    <div class="main-box">
+                                        <div class="box-4-pere mb-20">
+                                            <h3 class="main-part-colo">Conversion Rate</h3>
+                                            <p class="main-part-colo4">Compared Last Month</p>
+                                        </div>
+                                        <div class="next-box mb-20 d-flex ali-center space-bet mb-20 mt-4">
+                                            <h2 class="main-part-colo">8.72%</h2>
+                                            <span style="color: rgb(161, 205, 41);"><i class="fa-solid fa-angle-up"
+                                                    style="color: rgb(161, 205, 41);"></i>&nbsp;+28.14%</span>
+                                        </div>
+                                        <div class="box-5-list mt-4">
+                                            <ul>
+                                                <li class="mb-20">
+                                                    <h3 class="main-part-colo">Impressions</h3>
+                                                    <p class="main-part-colo4">12.4k Visits</p>
+                                                </li>
+                                                <li class="mb-20">
+                                                    <h3 class="main-part-colo">Added To Cart</h3>
+                                                    <p class="main-part-colo4">32 Product in cart</p>
+                                                </li>
+                                                <li class="mb-20">
+                                                    <h3 class="main-part-colo">Checkout</h3>
+                                                    <p class="main-part-colo4">21 Products checkout</p>
+                                                </li>
+                                                <li>
+                                                    <h3 class="main-part-colo">Purchased</h3>
+                                                    <p class="main-part-colo4">12 Orders</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-6 col-padding">
+                                <div class="main-box">
+                                    <div class="box-4-pere main-part-colo mb-20 text-right mb-20">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </div>
+                                    <div class="graph mt-20" id="apex-3">
+
+                                    </div>
+                                    <div class="box-5-list">
+                                        <ul>
+                                            <li class="mb-20 text-left">
+                                                <span style="color: rgb(113, 123, 123);"><i class="fa-solid fa-arrow-up"
+                                                        style="color: rgb(160, 205, 36);"></i>&nbsp;12.8%</span>
+                                            </li>
+                                            <li class="mb-20 text-left">
+                                                <span style="color: rgb(113, 123, 123);"><i
+                                                        class="fa-solid fa-arrow-down"
+                                                        style="color: rgb(237, 41, 2);"></i>&nbsp; - 8.5%</span>
+                                            </li>
+                                            <li class="mb-20 text-left">
+                                                <span style="color: rgb(113, 123, 123);"><i class="fa-solid fa-arrow-up"
+                                                        style="color: rgb(160, 205, 36);"></i>&nbsp;9.12%</span>
+                                            </li>
+                                            <li class="text-left">
+                                                <span style="color: rgb(113, 123, 123);"><i class="fa-solid fa-arrow-up"
+                                                        style="color: rgb(160, 205, 36);"></i>&nbsp;2.83%</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 d-flex w-lg-12 w-s-12">
+                        <div class="w-6 col-padding mb-20 w-lg-3 mb-0 w-s-6">
+                            <div class="part-1 col-padding" style="height: 100%;">
+                                <div class="main-box">
+                                    <div class="box-3-img d-flex ali-center space-bet mb-20 mt-20">
+                                        <img src="images/box-7/img1.png" alt="box-3-img" style="width: 30%;"
+                                            class="mt-20">
+                                        <span class="main-part-colo"><i
+                                                class="fa-solid fa-ellipsis-vertical"></i></span>
+                                    </div>
+                                    <div class="box-3-pere-1 mb-20">
+                                        <p class="mb-20 main-part-colo4">Revenue</p>
+                                        <h2 class="mb-20 main-part-colo">$42,389</h2>
+                                        <span style="color: rgb(161, 205, 41);"><i class="fa-solid fa-arrow-up"
+                                                style="color: rgb(160, 205, 36);"></i>&nbsp;+52.18%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-6 col-padding mb-20 w-lg-3 mb-0 w-s-6">
+                            <div class="part-1 col-padding" style="height: 100%;">
+                                <div class="main-box">
+                                    <div class="box-3-pere-1">
+                                        <p class="main-part-colo4" style="color: rgb(73, 119, 121);">Transactions</p>
+                                        <h2 class="mb-20 main-part-colo">$14,857</h2>
+                                        <p class="mb-20 mt-20"
+                                            style="padding: 6px; background-color: #79859e; display: inline-block; border-radius: 7px;">
+                                            +34</p>
+                                        <p class="mt-20 main-part-colo">Sales Target</p>
+                                        <div class="range d-flex ali-center space-bet">
+                                            <div class="rang-part">
+                                                <div class="range-part-2"></div>
+                                            </div>
+                                            <h3 class="main-part-colo">78%</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-12 col-padding w-lg-6 w-s-12">
+                            <div class="part-1 d-flex" style="height: 100%;">
+                                <div class="w-4">
+                                    <div class="main-box">
+                                        <div class="box-7-pere" style="height: 100%;">
+                                            <h3 class="mb-20 main-part-colo">Expenses</h3>
+                                            <h2 class="main-part-colo">$84.7k</h2>
+                                            <span style="color: red;"><i class="fa-solid fa-arrow-down"
+                                                    style="color: red;"></i>&nbsp;8.2%</span>
+                                            <p class=" mt-20"
+                                                style="padding: 6px; background-color: #79859e; display: inline-block; border-radius: 7px;">
+                                                2024&nbsp;YEAR</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-8">
+                                    <div class="main-box">
+                                        <div class="graph">
+                                            <div class="div mt-20">
+                                                <canvas id="chart-8"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-8 col-padding w-lg-6 w-s-12">
+                        <div class="part-1 d-flex ali-center jus-center height-100">
+                            <div class="over-x">
+                                <table>
+                                    <tr>
+                                        <th class="main-part-colo">PRODUCT</th>
+                                        <th class="main-part-colo">CATEGORY</th>
+                                        <th class="main-part-colo">PAYMENT</th>
+                                        <th class="main-part-colo">ORDER&nbsp;STATUS</th>
+                                        <th class="main-part-colo">ACTIONS</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img-box dis-flex ali-center">
+                                                <img src="images/box-8/img1.png" alt="img1" style="width: 30%;">
+                                                <div class="box-8-pere">
+                                                    <h4 class="main-part-colo">OnePlus&nbsp;7Pro</h4>
+                                                    <span class="main-part-colo2">OnePlus</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="dis-flex ali-center">
+                                                <div class="profile"
+                                                    style="--prof-size:40px; background-color: rgb(190, 248, 194); color: rgb(92, 99, 86);">
+                                                    <i class="fa-solid fa-mobile-button"></i>
+                                                </div>
+                                                <div class="profile-pere">
+                                                    <p class="main-part-colo2">Smart Phone</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-3-pere">
+                                                <h3 class="main-part-colo3">$120<span class="main-part-colo">/499</span>
+                                                </h3>
+                                                <p class="main-part-colo4">Partially Paid</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-4-pere">
+                                                <p class=" mt-20"
+                                                    style="padding: 3px 4px; background-color: #99a7c4; display: inline-block; border-radius: 7px;">
+                                                    CONFIRMED</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-5-icon main-part-colo">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img-box dis-flex ali-center">
+                                                <img src="images/box-8/img2.png" alt="img1" style="width: 30%;">
+                                                <div class="box-8-pere">
+                                                    <h4 class="main-part-colo">Magic&nbsp;Mouse</h4>
+                                                    <span class="main-part-colo2">Apple</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="dis-flex ali-center">
+                                                <div class="profile"
+                                                    style="--prof-size:40px; background-color: rgb(107, 154, 219); color: rgb(39, 86, 103);">
+                                                    <i class="fa-solid fa-computer-mouse"></i>
+                                                </div>
+                                                <div class="profile-pere">
+                                                    <p class="main-part-colo2">Mouse</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-3-pere">
+                                                <h3 class="main-part-colo3">$149</h3>
+                                                <p class="main-part-colo4">Fully&nbsp;Paid</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-4-pere">
+                                                <p class=" mt-20"
+                                                    style="padding: 3px 4px; background-color: #b3bc6a; display: inline-block; border-radius: 7px;">
+                                                    CONFIRMED</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-5-icon main-part-colo">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img-box dis-flex ali-center">
+                                                <img src="images/box-8/img3.png" alt="img1" style="width: 30%;">
+                                                <div class="box-8-pere">
+                                                    <h4 class="main-part-colo">iMac&nbsp;Pro</h4>
+                                                    <span class="main-part-colo2">Apple</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="dis-flex ali-center">
+                                                <div class="profile"
+                                                    style="--prof-size:40px; background-color: rgb(156, 177, 206); color: rgb(36, 105, 131);">
+                                                    <i class="fa-solid fa-desktop"></i>
+                                                </div>
+                                                <div class="profile-pere">
+                                                    <p class="main-part-colo2">Coumputer</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-3-pere">
+                                                <h3 class="main-part-colo3">$0<span class="main-part-colo">/899</span>
+                                                </h3>
+                                                <p class="main-part-colo4">Unpaid</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-4-pere">
+                                                <p class=" mt-20"
+                                                    style="padding: 3px 4px; background-color: #ed623f; display: inline-block; border-radius: 7px;">
+                                                    CANCELLED</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-5-icon main-part-colo">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img-box dis-flex ali-center">
+                                                <img src="images/box-8/img4.png" alt="img1" style="width: 30%;">
+                                                <div class="box-8-pere">
+                                                    <h4 class="main-part-colo">Note&nbsp;10</h4>
+                                                    <span class="main-part-colo2">Samsung</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="dis-flex ali-center">
+                                                <div class="profile"
+                                                    style="--prof-size:40px; background-color: rgb(190, 248, 194); color: rgb(36, 124, 91);">
+                                                    <i class="fa-solid fa-mobile-button"></i>
+                                                </div>
+                                                <div class="profile-pere">
+                                                    <p class="main-part-colo2">Smart&nbsp;Phone</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-3-pere">
+                                                <h3 class="main-part-colo3">$149</h3>
+                                                <p class="main-part-colo4">Fully Paid</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-4-pere">
+                                                <p class=" mt-20"
+                                                    style="padding: 3px 4px; background-color: rgb(190, 248, 194); display: inline-block; border-radius: 7px;">
+                                                    CONFIRMED</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-5-icon main-part-colo">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img-box dis-flex ali-center">
+                                                <img src="images/box-8/img5.png" alt="img1" style="width: 30%;">
+                                                <div class="box-8-pere">
+                                                    <h4 class="main-part-colo">iPhone&nbsp;11&nbsp;Pro</h4>
+                                                    <span class="main-part-colo2">Apple</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="dis-flex ali-center">
+                                                <div class="profile"
+                                                    style="--prof-size:40px; background-color: rgb(190, 248, 194); color: rgb(108, 119, 96);">
+                                                    <i class="fa-solid fa-mobile-button"></i>
+                                                </div>
+                                                <div class="profile-pere">
+                                                    <p class="main-part-colo2">Smart&nbsp;Phone</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-3-pere">
+                                                <h3 class="main-part-colo3">$399</h3>
+                                                <p class="main-part-colo4">Fully Paid</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-4-pere">
+                                                <p class=" mt-20"
+                                                    style="padding: 3px 4px; background-color: rgb(190, 248, 194); display: inline-block; border-radius: 7px;">
+                                                    CONFIRMED</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-5-icon main-part-colo">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="img-box dis-flex ali-center">
+                                                <img src="images/box-8/img6.png" alt="img1" style="width: 30%;">
+                                                <div class="box-8-pere">
+                                                    <h4 class="main-part-colo">Mi&nbsp;LED&nbsp;TV&nbsp;4X</h4>
+                                                    <span class="main-part-colo2">Xiaomi</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="dis-flex ali-center">
+                                                <div class="profile"
+                                                    style="--prof-size:40px; background-color: rgb(156, 157, 210); color: rgb(229, 230, 228);">
+                                                    <i class="fa-solid fa-tv"></i>
+                                                </div>
+                                                <div class="profile-pere">
+                                                    <p class="main-part-colo2">Smart TV</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-3-pere">
+                                                <h3 class="main-part-colo3">$349<span
+                                                        class="main-part-colo">/2499</span></h3>
+                                                <p class="main-part-colo4">Partially Paid</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-4-pere">
+                                                <p class=" mt-20"
+                                                    style="padding: 3px 4px; background-color: #99a7c4; display: inline-block; border-radius: 7px;">
+                                                    CONFIRMED</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center">
+                                            <div class="part-5-icon main-part-colo">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="bor-bot">
+                                            <div class="img-box dis-flex ali-center">
+                                                <img src="images/box-8/img7.png" alt="img1" style="width: 30%;">
+                                                <div class="box-8-pere">
+                                                    <h4 class="main-part-colo">Logitech&nbsp;MX</h4>
+                                                    <span class="main-part-colo2">Logitech</span>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center bor-bot">
+                                            <div class="dis-flex ali-center">
+                                                <div class="profile"
+                                                    style="--prof-size:40px; background-color: rgb(190, 248, 194); color: rgb(35, 106, 137);">
+                                                    <i class="fa-solid fa-computer-mouse"></i>
+                                                </div>
+                                                <div class="profile-pere">
+                                                    <p class="main-part-colo2">Mouse</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center bor-bot">
+                                            <div class="part-3-pere">
+                                                <h3 class="main-part-colo3"><span class="main-part-colo">$89</span></h3>
+                                                <p class="main-part-colo4">Fully Paid</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center bor-bot">
+                                            <div class="part-4-pere">
+                                                <p class=" mt-20"
+                                                    style="padding: 3px 4px; background-color: #99a7c4; display: inline-block; border-radius: 7px;">
+                                                    CONFIRMED</p>
+                                            </div>
+                                        </td>
+                                        <td class="text-center bor-bot">
+                                            <div class="part-5-icon main-part-colo">
+                                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4 col-padding w-lg-6 w-s-12">
+                        <div class="part-1" style="height: 100%;">
+                            <div class="main-box">
+                                <div class="box-3-img dis-flex ali-center space-bet mb-20">
+                                    <div class="box-4-pere">
+                                        <h3 class="main-part-colo">Report</h3>
+                                    </div>
+                                    <span class="main-part-colo"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+                                </div>
+                                <div class="box-9 dis-flex">
+                                    <div class="profile"
+                                        style="--prof-size:40px; background-color: rgb(190, 248, 194); color: rgb(98, 108, 89);">
+                                        <i class="fa-solid fa-triangle-exclamation"></i>
+                                    </div>
+                                    <div class="profile-pere">
+                                        <h3 class="main-part-colo">$2.54k</h3>
+                                        <p class="main-part-colo2">Wallet</p>
+                                    </div>
+                                    <div class="profile las-box-mar"
+                                        style="--prof-size:40px; background-color: rgb(163, 227, 236); color: rgb(108, 115, 101);">
+                                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                                    </div>
+                                    <div class="profile-pere">
+                                        <h3 class="main-part-colo">$4.2k</h3>
+                                        <p class="main-part-colo2">Paypal</p>
+                                    </div>
+                                </div>
+                                <div class="graph mt-20 mb-20 mt-4" id="apex-4" style="height: 100%; width: 100%;">
+                                </div>
+                                <div class="box-9-last-pere dis-flex ali-center space-bet mt-4">
+                                    <p class="main-part-colo2">You have done<b> 57.6% </b>more sales.</br>
+                                        Check your new badge in your profile.</p>
+                                    <div class="profile"
+                                        style="--prof-size:40px; background-color: rgb(190, 248, 194); color: rgb(103, 111, 94);">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="row ali-center">
+                    <div class="w-8 col-padding mb-20 mt-20 w-lg-6 w-s-12">
+                        <div class="footer-pere1 col-padding">
+                            <p>© 2024, made with ❤️ by ThemeSelection</p>
+                        </div>
+                    </div>
+                    <div class="w-4 col-padding mt-20 w-lg-6 w-md-none">
+                        <div class="footer-list col-padding">
+                            <ul class="d-flex ali-center space-bet col-padding">
+                                <li><a href="#">License</a></li>
+                                <li><a href="#">More Themes</a></li>
+                                <li><a href="#">Documentation</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- buy-now-btn -->
+        <div class="buy-now-btn">
+            <a href="javascript:void(0)">Buy Now</a>
+        </div>
+        <!-- setting-btn -->
+        <div class="setting-btn w-lg-none" id="setting-btn">
+            <a href="javascript:void(0)"><i class="fa-solid fa-gear"></i></a>
+        </div>
+        <!-- system-chenge-box -->
+        <div class="system-chenge-part di-none w-lg-none" id="system-box">
+            <div class="main-box">
+                <div class="part-4-pere">
+                    <div class="system-chenge-close" id="system-box-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <p style="padding: 3px 4px; background-color: #99a7c4; display: inline-block; border-radius: 7px;">
+                        Theming</p>
+                    <h2 class="mt-20 mb-20 main-part-colo">STYLE (MODE)</h2>
+                    <div class="style-box d-flex ali-center jus-center row-gap">
+                        <div class="w-2 col-padding text-center system-swatch" style="width: 50%;" id="style">
+                            <div class="light"><i class="fa-solid fa-lightbulb"></i></div>
+                            <p class="main-part-colo">Light</p>
+                        </div>
+                        <div class="w-2 col-padding text-center system-swatch" style="width: 50%;" id="dark">
+                            <div class="dark"><i class="fa-solid fa-moon"></i></div>
+                            <p class="main-part-colo">Dark</p>
+                        </div>
+                        <div class="w-2 col-padding text-center system-swatch" style="width: 50%;" id="style">
+                            <div class="dark"><i class="fa-solid fa-desktop"></i></div>
+                            <p class="main-part-colo">System</p>
+                        </div>
+                    </div>
+                    <h2 class="mt-20 mb-20 main-part-colo">THEMES</h2>
+                    <div class="style-box d-flex ali-center jus-center row-gap">
+                        <div class="w-2 col-padding text-center system-swatch" style="width: 50%;" id="style">
+                            <div class="light"><img src="images/systemimg/img1.svg" alt="Default"></div>
+                            <p class="main-part-colo">Default</p>
+                        </div>
+                        <div class="w-2 col-padding text-center system-swatch" style="width: 50%;" id="border">
+                            <div class="dark"><img src="images/systemimg/img2.svg" alt="Bordered"></div>
+                            <p class="main-part-colo">Bordered</p>
+                        </div>
+                        <div class="w-2 col-padding text-center system-swatch" style="width: 50%;" id="semi-Dark">
+                            <div class="dark"><img src="images/systemimg/img3.svg" alt="Semi Dark"></div>
+                            <p class="main-part-colo">Semi Dark</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script-file -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</body>
+
+</html>
