@@ -43,7 +43,7 @@ $(document).ready(function () {
     });
 
     $('.search-close').click(function () {
-        $('#nav-ul').show(); $('.search-close').hide(); $('.search').show();
+        $('#nav-ul').show();$('.search-close').hide();$('.search').show();
     });
 
     // header-dropdown
